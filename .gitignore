@@ -1,0 +1,82 @@
+# Python #
+##########
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+venv/
+*.venv
+env/
+.env
+
+# Jupyter Notebooks #
+#####################
+.ipynb_checkpoints
+
+# Data files #
+##############
+*.csv
+*.dat
+*.efx
+*.gbr
+*.key
+*.pps
+*.ppt
+*.pptx
+*.sdf
+*.tax2010
+*.vcf
+*.xml
+
+# Machine Learning specific #
+#############################
+*.h5
+*.pkl
+*.model
+*.joblib
+
+# Logs and temporary files #
+############################
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files #
+######################
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Miscellaneous #
+#################
+.pytest_cache/
+.coverage
+htmlcov/
+*.pth
+runs/
